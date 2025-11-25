@@ -19,16 +19,18 @@ The analysis is structured around the following Key Business Questions:
 ​Primary Tool: Microsoft Excel (Advanced)
 ​Techniques: Excel Data Model (Power Pivot), Custom Calculated Measures/Fields, Pivot Tables, Advanced Conditional Formatting, and multi-sheet dashboard integration.
 
-## Data Structure & Initial Checks (The Excel Data Model)
+## Data Structure & Initial Checks
+
 ​This complex, multi-page dashboard was built on a robust, denormalized data model within Microsoft Excel's Power Pivot. This approach was essential for connecting raw data from four separate sheets/tables and enabling complex, cross-table calculations.
 ### ​Data Model Structure:
 ​The core tables used to power the analysis, as derived from the Excel Data Model viewer, include:
-​accounts: Contains individual account status (AccountID, CustomerID, Account Type, Balance, Loan Amount, Credit Score).
-​Table1 (Customer/Branch Dim): Contains primary customer and branch attributes (CustomerID, Age Group, Region, Income, Tenure, Branch operational metrics like Profit Margin and Revenue per Staff).
-​transactions: Captures all activity (TransID, AccountID, Date, Transaction Type, Channel, Merchant).
-​Copy of complai... (Complaints): Contains all risk and service data (ComplaintID, CustomerID, Complaint Type, Status, Resolution Time, Urgency Flag).
-​Data Preparation & Calculation Highlights
-​Custom Calculated Measures: The entire analysis, including key metrics like Profit Margin (64%), Average Tenure (5yrs), Cost-to-Income Ratio, and YOY changes was created using custom calculated measures and fields within the Power Pivot Data Model. This ensures dynamic accuracy across all Pivot Table and Slicer filters.
-​Relationship Management: The model uses one-to-many relationships (e.g., Table1[CustomerID] to transactions[CustomerID]) to link transactional and complaint data back to the core customer and demographic tables.
-​Segmentation: Data was enriched to categorize customers by Generation (Boomers, GenX, Millennials) and Wealth Segment (High, Low, Medium, Premium) for targeted analysis.
-​Efficiency Metrics: Complex ratios like Profit Margin and Branch Cost-to-Income Ratio (Page 4) were calculated to assess operational health.
+* ​**accounts:** Contains individual account status (`AccountID`, `CustomerID`, `Account Type`, `Balance`, `Loan Amount`, `Credit Score`).
+* **Customers:** Contains primary customer and branch attributes (`CustomerID`, `Age Group`, `Region`, `Income`, `Tenure`, Branch operational metrics like `Profit Margin` and `Revenue per Staff`).
+* **transactions:** Captures all activity (`TransID`, `AccountID`, `Date`, `Transaction Type`, `Channel`, `Merchant`).
+* **Complaints:** Contains all risk and service data (`ComplaintID`, `CustomerID`, `Complaint Type`, `Status`, `Resolution Time`, `Urgency Flag`).
+* ##Data Preparation & Calculation Highlights
+
+* ​Custom Calculated Measures: The entire analysis, including key metrics like `Profit Margin` (64%), `Average Tenure` (5yrs), `Cost-to-Income Ratio`, and `YOY changes` was created using custom calculated measures and fields within the Power Pivot Data Model. This ensures dynamic accuracy across all Pivot Table and Slicer filters.
+* **Relationship Management:** The model uses one-to-many relationships (e.g., Customer`[CustomerID]` to transactions`[CustomerID]`) to link transactional and complaint data back to the core customer and demographic tables.
+* **Segmentation:** Data was enriched to categorize customers by `Generation` (Boomers, GenX, Millennials) and `Wealth Segment` (High, Low, Medium, Premium) for targeted analysis.
+​Efficiency Metrics: Complex ratios like `Profit Margin` and `Branch Cost-to-Income Ratio`  were calculated to assess operational health.
