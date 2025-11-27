@@ -41,8 +41,9 @@ The analysis is structured around the following Key Business Questions:
 * **Risk Exposure**: Despite a 28% decrease in total `complaints YOY`, 81% of `Premium Customers` are affected by fraud and service issues. Furthermore, 41% of complaints remain unresolved, highlighting a critical failure in customer service follow-through.
    ## Insights Deep Dive (Page-by-Page)
 ​The dashboard is divided into five analytical modules:
-_ **Customer Base Analysis**
-  ##££ Loyalty & Tenure: The customer base shows strong retention with an `Average Tenure` of 5 Years. 167 customers are categorized as Loyal.
-​*Wealth Distribution*: `Millennials` ($114,590 Avg Income) hold the highest average income, surpassing Boomers and GenX, positioning them as the key demographic for future high-value product sales.
-​*Segmentation*: `Corporate customers` have the highest average wealth, but the `Private` and `Retail` segments are crucial due to their higher transaction volumes.
+ #### Customer Base Analysis
+***Loyalty & Tenure**: The customer base shows strong retention with an `Average Tenure` of 5 Years. 167 customers are categorized as Loyal.
 
+***Wealth Distribution**:`Millennials` ($114,590 Avg Income) hold the highest average income, surpassing Boomers and GenX, positioning them as the key demographic for future high-value product sales.
+
+***Segmentation**: `Corporate customers` have the highest average wealth, but the `Private` and `Retail` segments are crucial due to their higher transaction volumes.
