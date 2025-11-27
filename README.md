@@ -47,3 +47,15 @@ The analysis is structured around the following Key Business Questions:
 ***Wealth Distribution**:`Millennials` ($114,590 Avg Income) hold the highest average income, surpassing Boomers and GenX, positioning them as the key demographic for future high-value product sales.
 
 ***Segmentation**: `Corporate customers` have the highest average wealth, but the `Private` and `Retail` segments are crucial due to their higher transaction volumes.
+
+#### Product Performance
+***Product Mix**:  `Savings ` (38%) and  `Checking ` (31%) accounts dominate the portfolio.
+
+***Lending & Risk**:  `Approved Loan` Amount stands at $43.7M with an  `Average Credit Score ` of 580. The chart "Does Credit Card Drive Loan Decisions?" shows a slight rejection bias (592 Rejected vs 581 Approved), suggesting tight, risk-averse lending criteria.
+
+#### Transaction Behavior
+***Digital Adoption Gap**:  `Premium customers ` prefer Digital Channels (Online/POS), but  `low-wealth  `customers rely on Branch & ATM, highlighting an uneven digital transition and potential cost center in physical banking.
+
+***Cash Flow**: The largest cash movements are split evenly between  `Withdrawal `,  `Payment `, and  `Deposit ` activities.
+
+***Merchant Activity**: Top merchants driving the biggest cash flow are  `Airbnb ` ($3.0M),  `LocalStore ` ($2.6M), and  `Apple ` ($2.5M), confirming a high volume of consumer spending via digital payments.
