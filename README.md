@@ -59,3 +59,19 @@ The analysis is structured around the following Key Business Questions:
 ***Cash Flow**: The largest cash movements are split evenly between  `Withdrawal `,  `Payment `, and  `Deposit ` activities.
 
 ***Merchant Activity**: Top merchants driving the biggest cash flow are  `Airbnb ` ($3.0M),  `LocalStore ` ($2.6M), and  `Apple ` ($2.5M), confirming a high volume of consumer spending via digital payments.
+
+#### Branch Performance & Efficiency
+
+​***Profitability:** `Total Profit` is $38.2M, with a healthy 64% `Profit Margin.`
+
+***​Top Branches:** `Lisaville` ($4.2M Profit) and `Michaeltown`($3.6M Profit) are the highest-performing branches.
+
+***​Efficiency Crisis:** The Branch `Cost-to-Income` Ratio plot shows that approximately 40% of branches are operating at a ratio above 100%, making them net loss centers for the bank.
+
+#### Complaints & Risk Analytics
+
+​***Complaint Volume:** `Total fraud cases` are 142. Overall `complaints`decreased by -28% VS 2024, which is a positive trend.
+
+***​Service Failure:** The `Avg. Resolution Time` is 34 Days, which is excessively long and a major drag on customer satisfaction. 41% of all complaints remain `unresolved.`
+
+***​Premium Customer Risk:** 81% of `Premium Customers` are affected by service issues, meaning the bank is failing to provide adequate service to its most valuable segment. `Charges Disputes` (184) and `Fraud` (142) are the top two complaint types.
