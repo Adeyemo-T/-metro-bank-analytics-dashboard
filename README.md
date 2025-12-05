@@ -1,3 +1,41 @@
+
+<h3 align="center">Metro Bank Dashboard Overview</h3>
+
+<table style="border: none; width: 100%;">
+  <tr>
+    <td width="50%" style="border: none;">
+      <h3 align="center">1. Customer Demographics</h3>
+      <img src=![Image](https://github.com/user-attachments/assets/de5f5030-bf65-491c-bdb5-9584a7862874) alt="Customer Base" width="100%">
+    </td>
+    <td width="50%" style="border: none;">
+      <h3 align="center">2. Product Performance</h3>
+      <img src=![Image](https://github.com/user-attachments/assets/090c78ec-bda4-466b-8049-0f8ad30e357e) alt="Product Insights" width="100%">
+    </td>
+  </tr>
+</table>
+
+<table style="border: none; width: 100%;">
+  <tr>
+    <td width="50%" style="border: none;">
+      <h3 align="center">3. Transaction Behavior</h3>
+      <img src=![Image](https://github.com/user-attachments/assets/090c78ec-bda4-466b-8049-0f8ad30e357e) alt="Transaction Behavior" width="100%">
+    </td>
+    <td width="50%" style="border: none;">
+      <h3 align="center">4. Branch Efficiency</h3>
+      <img src=![Image](https://github.com/user-attachments/assets/de5f5030-bf65-491c-bdb5-9584a7862874) alt="Branch Performance" width="100%">
+    </td>
+  </tr>
+</table>
+
+<table style="border: none; width: 100%;">
+  <tr>
+    <td width="100%" style="border: none;" align="center">
+      <h3 align="center">5. Complaints & Risk Analytics</h3>
+      <img src=![Image](https://github.com/user-attachments/assets/de5f5030-bf65-491c-bdb5-9584a7862874) alt="Complaints and Risk" width="80%"> 
+    </td>
+  </tr>
+</table>
+
 ## Project Background
 ​Metro Bank is a high-street retail bank dedicated to providing personalized service alongside modern financial products. Like many growing institutions, Metro Bank faces the constant challenge of balancing rapid customer acquisition, maintaining profitability across a large branch network, and minimizing risk from fraud and service failures.
 ​This project originates from a genuine need for executive leadership to move past siloed reports. The objective was to create a single source of truth, a comprehensive, 5-page analytical dashboard built in Advanced Microsoft Excel—that integrates the entire customer and operational journey.
