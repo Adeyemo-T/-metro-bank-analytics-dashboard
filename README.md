@@ -1,41 +1,3 @@
-
-<h3 align="center">Metro Bank Dashboard Overview</h3>
-
-<table style="border: none; width: 100%;">
-  <tr>
-    <td width="50%" style="border: none;">
-      <h3 align="center">1. Customer Demographics</h3>
-      <img src=![Image](https://github.com/user-attachments/assets/de5f5030-bf65-491c-bdb5-9584a7862874) alt="Customer Base" width="100%">
-    </td>
-    <td width="50%" style="border: none;">
-      <h3 align="center">2. Product Performance</h3>
-      <img src=![Image](https://github.com/user-attachments/assets/090c78ec-bda4-466b-8049-0f8ad30e357e) alt="Product Insights" width="100%">
-    </td>
-  </tr>
-</table>
-
-<table style="border: none; width: 100%;">
-  <tr>
-    <td width="50%" style="border: none;">
-      <h3 align="center">3. Transaction Behavior</h3>
-      <img src=![Image](https://github.com/user-attachments/assets/090c78ec-bda4-466b-8049-0f8ad30e357e) alt="Transaction Behavior" width="100%">
-    </td>
-    <td width="50%" style="border: none;">
-      <h3 align="center">4. Branch Efficiency</h3>
-      <img src=![Image](https://github.com/user-attachments/assets/de5f5030-bf65-491c-bdb5-9584a7862874) alt="Branch Performance" width="100%">
-    </td>
-  </tr>
-</table>
-
-<table style="border: none; width: 100%;">
-  <tr>
-    <td width="100%" style="border: none;" align="center">
-      <h3 align="center">5. Complaints & Risk Analytics</h3>
-      <img src=![Image](https://github.com/user-attachments/assets/de5f5030-bf65-491c-bdb5-9584a7862874) alt="Complaints and Risk" width="80%"> 
-    </td>
-  </tr>
-</table>
-
 ## Project Background
 ​Metro Bank is a high-street retail bank dedicated to providing personalized service alongside modern financial products. Like many growing institutions, Metro Bank faces the constant challenge of balancing rapid customer acquisition, maintaining profitability across a large branch network, and minimizing risk from fraud and service failures.
 ​This project originates from a genuine need for executive leadership to move past siloed reports. The objective was to create a single source of truth, a comprehensive, 5-page analytical dashboard built in Advanced Microsoft Excel—that integrates the entire customer and operational journey.
@@ -56,7 +18,6 @@ The analysis is structured around the following Key Business Questions:
 ​Techniques: Excel Data Model (Power Pivot), Custom Calculated Measures/Fields, Pivot Tables, Advanced Conditional Formatting, and multi-sheet dashboard integration.
 
 ## Data Structure & Initial Checks
-
 ​This complex, multi-page dashboard was built on a robust, denormalized data model within Microsoft Excel's Power Pivot. This approach was essential for connecting raw data from four separate sheets/tables and enabling complex, cross-table calculations.
 #### ​Data Model Structure:
 ​The core tables used to power the analysis, as derived from the Excel Data Model viewer, include:
@@ -64,12 +25,14 @@ The analysis is structured around the following Key Business Questions:
 * **Customers:** Contains primary customer and branch attributes (`CustomerID`, `Age Group`, `Region`, `Income`, `Tenure`, Branch operational metrics like `Profit Margin` and `Revenue per Staff`).
 * **transactions:** Captures all activity (`TransID`, `AccountID`, `Date`, `Transaction Type`, `Channel`, `Merchant`).
 * **Complaints:** Contains all risk and service data (`ComplaintID`, `CustomerID`, `Complaint Type`, `Status`, `Resolution Time`, `Urgency Flag`).
+* ![Image](https://github.com/user-attachments/assets/fcdf3f1e-9dd9-4204-b11f-0c48a35c21ef)
  #### Data Preparation & Calculation Highlights
 
 * ​**Custom Calculated Measures:** The entire analysis, including key metrics like `Profit Margin` (64%), `Average Tenure` (5yrs), `Cost-to-Income Ratio`, and `YOY changes` was created using custom calculated measures and fields within the Power Pivot Data Model. This ensures dynamic accuracy across all Pivot Table and Slicer filters.
 * **Relationship Management:** The model uses one-to-many relationships (e.g., Customer`[CustomerID]` to transactions`[CustomerID]`) to link transactional and complaint data back to the core customer and demographic tables.
 * **Segmentation:** Data was enriched to categorize customers by `Generation` (Boomers, GenX, Millennials) and `Wealth Segment` (High, Low, Medium, Premium) for targeted analysis.
 * **Efficiency Metrics:** Complex ratios like `Profit Margin` and `Branch Cost-to-Income Ratio`  were calculated to assess operational health.
+  ![Image](https://github.com/user-attachments/assets/8dd2e0b4-6545-4f05-97f9-9b5ff1f459dc)
  ## Executive Summary
 
 ​Metro Bank is characterized by a strong, loyal customer base (`Average Tenure`: 5 Years) and healthy profitability (`Profit Margin`: 64%). However, two critical areas demand immediate executive focus: Digital Adoption and Risk Management.
